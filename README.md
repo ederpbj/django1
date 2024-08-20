@@ -1,10 +1,4 @@
-### Comandos
 
-```Python
-
-python -m http.server 8000 #roda servidor na porta 8000
-
-```
 
 ### Links úteis
 
@@ -21,4 +15,25 @@ python -m http.server 8000 #roda servidor na porta 8000
 ### Aulas Resumos
 
 
-A18. 
+A18. instalando Django
+
+A19. 
+
+### Comandos
+
+```Python
+
+pip install django
+
+# salva em txt todas as bibliotecas utilizadas
+pip freeze > requirements.txt
+
+# iniciar o django no diretório
+# manage gerencia a aplicação 
+django-admin startproject django1 . # cria na raiz manager.py
+django-admin startproject django1   # cria uma pasta e dentro dela manager.py
+
+
+
+
+```
