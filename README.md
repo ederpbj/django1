@@ -17,7 +17,7 @@
 
 A18. instalando Django
 
-A19. 
+A19. Django com sqlite
 
 ### Comandos
 
