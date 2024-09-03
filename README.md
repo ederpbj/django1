@@ -22,6 +22,11 @@ A19. Django com sqlite
 ### Comandos
 
 ```Python
+# Ativar ambiente virtual
+source myenv/bin/activate
+
+# Sair do ambiente vitual
+deactivate
 
 pip install django
 
@@ -29,7 +34,7 @@ pip install django
 pip freeze > requirements.txt
 
 # iniciar o django no diretório
-# manage gerencia a aplicação 
+# manage gerencia a aplicação
 django-admin startproject django1 . # cria na raiz manager.py
 django-admin startproject django1   # cria uma pasta e dentro dela manager.py
 
