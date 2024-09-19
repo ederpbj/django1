@@ -27,8 +27,8 @@ SECRET_KEY = 'django-insecure-l!w9$h5ecfxk=2xmi*fr#6bpk2_o9r4*%yaecrb9=7b+&8&d6w
 DEBUG = True
 
 # Qual dominio vai executar aplicacao
-ALLOWED_HOSTS = []
-# ALLOWED_HOSTS = ['*'] # executa tudo que aparecer, não recomendado
+# ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*'] # executa tudo que aparecer, não recomendado em produção
 
 
 # Application definition
