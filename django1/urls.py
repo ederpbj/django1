@@ -20,7 +20,7 @@ from django.urls import path, include
 from core.views import index, contato
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('painel/', admin.site.urls), # recomenda-se mudar de admin para outro ex painel
     # Cada aplicação define suas rotas
     path('', include('core.urls')), # Rotas gerenciadas pela aplicação core
 

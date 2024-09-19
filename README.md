@@ -27,6 +27,7 @@
 9. Rotas no Django e o arquivo urls.py
 10. Templates no Django
 11. Models no Django e o arquivo models.py
+12. Área administrativa e o arquivo admin.py
 
 ### Comandos
 
@@ -54,6 +55,8 @@ python manage.py runserver # rodar o servidor na pasta django1
 python manage.py makemigrations # fazer as migrações
 
 python manage.py migrate # executar a migrate, depois abrir o db.sqlite3
+
+python manage.py createsuperuser # cria super usuario para rota admin
 
 
 ```
