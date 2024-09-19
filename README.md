@@ -35,8 +35,10 @@ pip freeze > requirements.txt
 
 # iniciar o django no diretório
 # manage gerencia a aplicação
-django-admin startproject django1 . # cria na raiz manager.py
-django-admin startproject django1   # cria uma pasta e dentro dela manager.py
+django-admin startproject django1 . # cria projeto na raiz manager.py
+django-admin startproject django1   # cria projeto uma pasta e dentro dela manager.py
+
+django-admin startapp core # cria uma aplicação
 
 
 
