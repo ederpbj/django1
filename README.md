@@ -40,7 +40,7 @@ django-admin startproject django1   # cria projeto uma pasta e dentro dela manag
 
 django-admin startapp core # cria uma aplicação, informar no django1/INSTALLED_APPS, bem como templates
 
-
+python manage.py runserver # rodar o servidor na pasta django1
 
 
 ```

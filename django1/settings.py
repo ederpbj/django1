@@ -23,11 +23,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-l!w9$h5ecfxk=2xmi*fr#6bpk2_o9r4*%yaecrb9=7b+&8&d6w'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-# Deixar false para producao, desabilita msg de sistema
+# Deixar False para produção, desabilita msg de sistema
 DEBUG = True
 
 # Qual dominio vai executar aplicacao
 ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = ['*'] # executa tudo que aparecer, não recomendado
 
 
 # Application definition
@@ -106,7 +107,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.1/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'pt-br'
 
 TIME_ZONE = 'UTC'
 
