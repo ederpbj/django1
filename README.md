@@ -23,6 +23,7 @@
 7. Configurações do Django e o arquivo settings.py
 8. Views no Django e o arquivo views.py
 9. Rotas no Django e o arquivo urls.py
+10. Templates no Django
 
 ### Comandos
 
