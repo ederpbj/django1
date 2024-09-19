@@ -14,6 +14,8 @@
 
 ### Aulas Resumos
 
+#### Seção 3 Django Framework básico
+
 1. Introdução
 2. Criando um ambiente virtual e instalando Django
 3. Criando um projeto Django com SQlite3 
@@ -24,6 +26,7 @@
 8. Views no Django e o arquivo views.py
 9. Rotas no Django e o arquivo urls.py
 10. Templates no Django
+11. Models no Django e o arquivo models.py
 
 ### Comandos
 
@@ -47,6 +50,10 @@ django-admin startproject django1   # cria projeto uma pasta e dentro dela manag
 django-admin startapp core # cria uma aplicação, informar no django1/INSTALLED_APPS, bem como templates
 
 python manage.py runserver # rodar o servidor na pasta django1
+
+python manage.py makemigrations # fazer as migrações
+
+python manage.py migrate # executar a migrate, depois abrir o db.sqlite3
 
 
 ```
