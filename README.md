@@ -14,10 +14,15 @@
 
 ### Aulas Resumos
 
-
-A18. instalando Django
-
-A19. Django com sqlite
+1. Introdução
+2. Criando um ambiente virtual e instalando Django
+3. Criando um projeto Django com SQlite3 
+4. Criando uma aplicação Django e conhecendo estrutura
+5. Django Projeto x Aplicações
+6. O padrão MTV do Django
+7. Configurações do Django e o arquivo settings.py
+8. Views no Django e o arquivo views.py
+9. Rotas no Django e o arquivo urls.py
 
 ### Comandos
 
