@@ -58,5 +58,35 @@ python manage.py migrate # executar a migrate, depois abrir o db.sqlite3
 
 python manage.py createsuperuser # cria super usuario para rota admin
 
+python manage.py # lista os comandos do manage
+
+python manage.py shell # carrega um console python
+
+    from core.models import Produto
+    dir(Produto) # mostra os atributos no shell
+    
+    from core.views import index
+    dir(index) # mostra os atributos no shell
+    
+    # Salvando via shell
+    from.core.models import Produto
+    produto = Produto(nome="Maquina de barbear", preco=59.99, estoque=1)
+    produto.save()
+    dir(Produto)
+    produto.id
+    
+    # Cliente via shell
+    from.core.models import Cliente
+    cliente = Cliente(nome='Erika', sobrenome='CICC PM', email="eroka@gmail.com")
+    cliente.save()
+    dir(Cliente) # mostra atributos
+    cliente.nome
+    
+    # Alterar ultimo registro
+    cliente.nome = 'Eliane'
+    cliente.email = 'eliane@gmail.com'
+    cliente.save()
+    cliente.delete() # deleta ultimo registro
+    
 
 ```
