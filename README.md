@@ -131,4 +131,9 @@ deactivate # sair da base virtual
 # 33. Publicando na internet seu primeiro projeto Django
 pip install whitenoise gunicorn # serve para arquivos estaticos e manage
 
+
+# ajustando gitignore
+git rm -r --cached .
+
+git status
 ```

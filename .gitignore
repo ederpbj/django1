@@ -1,7 +1,39 @@
-__pycache__
-
-*.*˜
-
+# Arquivos Python
 *.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
 
-.idea
+# Virtualenv
+venv/
+env/
+ENV/
+.venv/
+.pyenv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Configurações do ambiente IDE
+.idea/
+.vscode/
+*.swp
+*~
+
+# Logs e banco de dados local
+*.log
+*.pot
+*.py[cod]
+*.sqlite3
+db.sqlite3
+
+# Diretórios de mídia e estáticos (gerados pelo Django)
+media/
+static/
+staticfiles/
+public/static/
+
+# Arquivos de migrações, se não forem desejados no controle de versão
+**/migrations/*
+
+# Diretórios
