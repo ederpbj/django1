@@ -14,25 +14,29 @@
 
 [images google](https://images.google.com/)
 
+[Document Django](https://docs.djangoproject.com/en/5.1/)
+
+
 ### Aulas Resumos
 
 #### Seção 3 Django Framework básico
 
-1. Introdução
-2. Criando um ambiente virtual e instalando Django
-3. Criando um projeto Django com SQlite3 
-4. Criando uma aplicação Django e conhecendo estrutura
-5. Django Projeto x Aplicações
-6. O padrão MTV do Django
-7. Configurações do Django e o arquivo settings.py
-8. Views no Django e o arquivo views.py
-9. Rotas no Django e o arquivo urls.py
-10. Templates no Django
-11. Models no Django e o arquivo models.py
-12. Área administrativa e o arquivo admin.py
-13. Django shell
-14. Dados do banco no template
-15. Arquivos estáticos no Django: CSS, JavaScript e Imagens
+17. Introdução
+18. Criando um ambiente virtual e instalando Django
+19. Criando um projeto Django com SQlite3 
+20. Criando uma aplicação Django e conhecendo estrutura
+21. Django Projeto x Aplicações
+22. O padrão MTV do Django
+23. Configurações do Django e o arquivo settings.py
+24. Views no Django e o arquivo views.py
+25. Rotas no Django e o arquivo urls.py
+26. Templates no Django
+27. Models no Django e o arquivo models.py
+28. Área administrativa e o arquivo admin.py
+29. Django shell
+30. Dados do banco no template 
+31. Arquivos estáticos no Django: CSS, JavaScript e Imagens
+32. Coloque nos seus favoritos: Django Docs
 
 ### Comandos
 

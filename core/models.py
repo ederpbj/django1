@@ -19,3 +19,4 @@ class Cliente(models.Model):
     def __str__(self):
         # return self.nome
         return f'{self.nome} {self.sobrenome}'
+
