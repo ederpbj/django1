@@ -12,6 +12,8 @@
 
 [One page html](https://onepagelove.com/templates/free-templates)
 
+[images google](https://images.google.com/)
+
 ### Aulas Resumos
 
 #### Seção 3 Django Framework básico
@@ -30,6 +32,7 @@
 12. Área administrativa e o arquivo admin.py
 13. Django shell
 14. Dados do banco no template
+15. Arquivos estáticos no Django: CSS, JavaScript e Imagens
 
 ### Comandos
 
@@ -96,5 +99,18 @@ python manage.py shell # carrega um console python
     dir(Produto.objects) # mostra as funções disponíveis
     Produto.objects.all() # exibe todos os produtos
     produtos = Produto.objects.all()
+    
+    # 31. Arquivos estáticos no Django: CSS, JavaScript e Imagens
+    python manage.py shell
+    pwd # mostra caminho do diretório atual
+    
+    from django1.settings import BASE_DIR
+    STATIC_ROOT = BASE_DIR/'staticfiles'
+    
+    python manage.py # exibe funções
+
+    python manage.py collectstatic # coleta os arquivos estaticos e cria uma pasta
+    
+    
 
 ```

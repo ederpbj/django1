@@ -1,0 +1,16 @@
+body {
+    background-color: #345966;
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+img {
+  width: 400px; /* Define a largura como 400 pixels */
+  height: 200px; /* Define a altura como 200 pixels */
+  /*width: 100%;  A imagem ocupará 100% da largura do contêiner */
+  /*height: auto;  Altura será ajustada automaticamente */
+}

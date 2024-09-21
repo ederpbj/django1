@@ -19,6 +19,10 @@ from django.urls import path, include
 
 from core.views import index, contato
 
+from django.conf.urls import handler404, handler500
+from core import views
+
+
 urlpatterns = [
     path('painel/', admin.site.urls), # recomenda-se mudar de admin para outro ex painel
     # Cada aplicação define suas rotas
@@ -27,3 +31,6 @@ urlpatterns = [
     # path('', index),
     # path('contato', contato),
 ]
+
+handler404 = views.error404
+handler500 = views.error500
