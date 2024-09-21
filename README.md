@@ -28,6 +28,8 @@
 10. Templates no Django
 11. Models no Django e o arquivo models.py
 12. Área administrativa e o arquivo admin.py
+13. Django shell
+14. Dados do banco no template
 
 ### Comandos
 
@@ -88,5 +90,11 @@ python manage.py shell # carrega um console python
     cliente.save()
     cliente.delete() # deleta ultimo registro
     
+    # Dados do banco no template
+    python manage.py shell
+    from.core.models import Produto
+    dir(Produto.objects) # mostra as funções disponíveis
+    Produto.objects.all() # exibe todos os produtos
+    produtos = Produto.objects.all()
 
 ```

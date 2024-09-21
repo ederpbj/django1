@@ -2,9 +2,14 @@
 from django.utils import timezone  # Importar timezone do Django
 from django.shortcuts import render
 
+from .models import Produto
+
+
 # Create your views here.
 
 def index(request):
+    produtos = Produto.objects.all()
+
     #print(dir(request.user))
     #print(f'User: {request.user}')
     #print(request)
@@ -42,8 +47,19 @@ def index(request):
         'outro': 'Django é massa',
         'logado': teste,
         'usuario': user,
+        'produtos': produtos,
     }
     return render(request, 'index.html', context)
 
 def contato(request):
     return render(request, 'contato.html')
+
+# busca produto por id
+def produto(request, pk):
+    prod = Produto.objects.get(id=pk)
+    #print(f"PK: {pk}")
+
+    context = {
+        'produto': prod
+    }
+    return render(request, 'produto.html', context)

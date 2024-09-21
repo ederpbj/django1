@@ -3,33 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Django1 - index</title>
+    <title>Django1 - produto</title>
 </head>
 <body>
-    <h1>Index</h1>
-    <h2>{{ curso }}</h2>
-    <h3>{{ outro }}</h3>
-    <p>{{ usuario }}</p>
-    <span>{{ logado }}</span>
-    </br>
 
-    <h2>Produtos</h2>
+    <h2>Produto</h2>
 
     <table>
         <thead>
             <tr>
                 <th>Produto</th>
                 <th>Preço</th>
+                <th>Estoque</th>
             </tr>
         </thead>
 
         <tbody>
-            {% for produto in produtos %}
             <tr>
-                <td><a href="{% url 'produto' produto.id %}">{{produto.nome}}</a></td>
+                <td><a href="{% url 'index' %}">{{produto.nome}}</a></td>
                 <td>{{produto.preco}}</td>
+                <td>{{produto.estoque}}</td>
             </tr>
-            {% endfor %}
         </tbody>
     </table>
 
@@ -38,6 +32,6 @@
 
 
     </br>
-<a href="contato">Contato</a>
+<a href="/">Home</a>
 </body>
 </html>
