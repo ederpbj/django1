@@ -174,4 +174,12 @@ heroku create django1-zu --buildpack heroku/python # cria aplicação no heroku,
 
 git push heroku master
 
+# limpando requirments
+rm -rf base/ # remover ambiente virtual
+python -m venv venv # criar novo
+source venv/bin/activate # ativar
+
+pip install django whitenoise gunicorn pytz sqlparse
+pip freeze > requirements.txt
+
 ```
