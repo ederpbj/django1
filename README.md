@@ -156,6 +156,18 @@ brew install python@3.12.6
 
 pip freeze > requirements.txt
 
+Django==5.1.1
+pytz==2024.1
+sqlparse==0.5.1
+whitenoise==6.7.0
+gunicorn==23.0.0
+
+# migrar statics e models
+python manage.py collectstatic
+
+python manage.py migrate
+
+# enviar para heroku
 heroku login # faz login na página
 
 heroku create django1-zu --buildpack heroku/python # cria aplicação no heroku, cuidado com nome para evitar conflito
