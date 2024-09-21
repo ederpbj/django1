@@ -182,4 +182,7 @@ source venv/bin/activate # ativar
 pip install django whitenoise gunicorn pytz sqlparse
 pip freeze > requirements.txt
 
+# resolve erro de conexao github
+git config --global http.postBuffer 157286400
+
 ```
