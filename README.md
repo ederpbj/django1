@@ -152,4 +152,11 @@ brew tap heroku/brew && brew install heroku
 python -V # 3.12.4
 
 pip freeze > requirements.txt
+
+heroku login # faz login na página
+
+heroku create django1-zu --buildpack heroku/python # cria aplicação no heroku, cuidado com nome para evitar conflito
+
+git push heroku master
+
 ```
