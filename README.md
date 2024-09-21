@@ -1,4 +1,4 @@
-from django.utils.translation.trans_null import deactivate
+from gc import freezefrom django.utils.translation.trans_null import deactivate
 
 ### Links úteis
 
@@ -17,6 +17,8 @@ from django.utils.translation.trans_null import deactivate
 [Django Document](https://docs.djangoproject.com/en/5.1/)
 
 [Html Document](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div)
+
+[Heroku](https://www.heroku.com/)
 
 
 ### Aulas Resumos
@@ -141,4 +143,13 @@ git add . # adicionando arquivos
 
 git commit -m "Projeto finalizado"
 
+# seguir instalação do heroku
+# https://devcenter.heroku.com/articles/getting-started-with-python#set-up
+brew tap heroku/brew && brew install heroku
+
+# criar runtime.txt
+# colocar versão do python atual
+python -V # 3.12.4
+
+pip freeze > requirements.txt
 ```
