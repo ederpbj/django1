@@ -151,6 +151,9 @@ brew tap heroku/brew && brew install heroku
 # colocar versão do python atual
 python -V # 3.12.4
 
+brew install python@3.12.6
+
+
 pip freeze > requirements.txt
 
 heroku login # faz login na página
