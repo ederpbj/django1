@@ -34,7 +34,7 @@ DEBUG = False
 
 # quando não sabe * executa tudo que aparecer, não recomendado em produção
 # se fosse real seria ex: www.zuarts.com.br
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['django1-zu-5dc09d6dd233.herokuapp.com/']
 
 
 # Application definition
