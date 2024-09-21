@@ -27,11 +27,14 @@ SECRET_KEY = 'django-insecure-l!w9$h5ecfxk=2xmi*fr#6bpk2_o9r4*%yaecrb9=7b+&8&d6w
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG False = modo produção, desabilita msg de sistema
 # DEBUG True = modo desenvolvimento
-DEBUG = True
+DEBUG = False
 
 # Qual dominio vai executar aplicacao
 # ALLOWED_HOSTS = []
-ALLOWED_HOSTS = ['*'] # executa tudo que aparecer, não recomendado em produção
+
+# quando não sabe * executa tudo que aparecer, não recomendado em produção
+# se fosse real seria ex: www.zuarts.com.br
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -48,6 +51,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',

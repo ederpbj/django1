@@ -1,4 +1,4 @@
-
+from django.utils.translation.trans_null import deactivate
 
 ### Links úteis
 
@@ -14,7 +14,9 @@
 
 [images google](https://images.google.com/)
 
-[Document Django](https://docs.djangoproject.com/en/5.1/)
+[Django Document](https://docs.djangoproject.com/en/5.1/)
+
+[Html Document](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div)
 
 
 ### Aulas Resumos
@@ -37,6 +39,10 @@
 30. Dados do banco no template 
 31. Arquivos estáticos no Django: CSS, JavaScript e Imagens
 32. Coloque nos seus favoritos: Django Docs
+33. 
+Miniatura da aula
+6:58 / 43:07
+33. Publicando na internet seu primeiro projeto Django
 
 ### Comandos
 
@@ -115,6 +121,14 @@ python manage.py shell # carrega um console python
 
     python manage.py collectstatic # coleta os arquivos estaticos e cria uma pasta
     
-    
+# atualizando django
+python -m django --version
+brew install python3.10
+python3.10 -m pip install Django==5.1.1
+
+deactivate # sair da base virtual
+
+# 33. Publicando na internet seu primeiro projeto Django
+pip install whitenoise gunicorn # serve para arquivos estaticos e manage
 
 ```
