@@ -133,7 +133,12 @@ pip install whitenoise gunicorn # serve para arquivos estaticos e manage
 
 
 # ajustando gitignore
-git rm -r --cached .
+git rm -r --cached . # elimina de acordo com gitignore
 
-git status
+git status 
+
+git add . # adicionando arquivos
+
+git commit -m "Projeto finalizado"
+
 ```
